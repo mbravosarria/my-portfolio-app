@@ -11,7 +11,7 @@ function NavBar() {
   const [navigationMenu, setNavigationMenu] = useState(false)
 
   return (
-    <div className="flex flex-col justify-center bg-blue text-[#fff] py-4 fixed top-0 w-full opacity-95 shadow-xl">
+    <div className="flex flex-col items-center justify-center bg-blue text-[#fff] py-4 fixed top-0 w-full opacity-95 shadow-xl">
       <div className="flex flex-row justify-between w-full md:max-w-[1280px] text-white px-2">
         <div className="flex flex-row space-x-8">
           <motion.div className="relative h-7 w-7" whileHover={{ scale: 1.5 }}>
