@@ -1,4 +1,4 @@
-export const PersonalInfo = {
+export const personalInfo = {
   name: 'Michel Bravo',
   headline: 'Software Engineer',
   summary: `Creative software engineer with two years of  experience as Web Developer and IT Specialist.
@@ -17,11 +17,10 @@ export const PersonalInfo = {
   ],
 }
 
-export const ContactInfo = {
-  address: '<<NOT DEFINED>>',
+export const contactInfo = {
   city: 'Lake Charles',
   state: 'LA',
-  postal_code: '<<12345>>',
+  postal_code: '70605',
   phone: '<<(123) 456-7890>>',
   email: 'mbravosarria@gmail.com',
   links: [
@@ -36,7 +35,7 @@ export const ContactInfo = {
   ],
 }
 
-export const WorkExperience = [
+export const workExperience = [
   {
     company: 'Cuspinera SURL',
     location: 'Havana, Cuba',
@@ -85,9 +84,69 @@ export const WorkExperience = [
   },
 ]
 
-export const Projects = []
+export const projects = [
+  {
+    title: 'Diplomarket',
+    description:
+      'Diplomarket is an online store developed with Next.js framework. It has a full responsive design and has animation using framer motion.',
+    links: {
+      code: undefined,
+      demo: 'https://www.diplomarket.com',
+    },
+    skills: [
+      'ECommerce',
+      'Next.js',
+      'React.js',
+      'Node.js',
+      'Tailwind CSS',
+      'Framer Motion',
+      'Responsive Design',
+    ],
+  },
+  {
+    title: 'My portfolio',
+    description:
+      'This online portfolio was developed by me using the Next.js framework. Full responsive design.',
+    links: {
+      code: 'https://github.com/mbravosarria/my-portfolio-app',
+      demo: undefined,
+    },
+    skills: [
+      'Next.js',
+      'React.js',
+      'Node.js',
+      'Tailwind CSS',
+      'Framer Motion',
+      'Responsive Design',
+    ],
+  },
+  {
+    title: 'Multi Step Form',
+    description: 'Multi step form UI developed in Next.js',
+    links: {
+      code: 'https://github.com/mbravosarria/multi-step-form-main.',
+      demo: 'https://dreamy-kangaroo-9a1e36.netlify.app/',
+    },
+    skills: [
+      'Next.js',
+      'React.js',
+      'Node.js',
+      'Tailwind CSS',
+      'Responsive Design',
+    ],
+  },
+  {
+    title: 'QR Code Component',
+    description: 'Testing basic HTML and CSS skills.',
+    links: {
+      code: 'https://github.com/mbravosarria/qr-code-component-main',
+      demo: 'https://gleeful-dango-bfa59b.netlify.app/',
+    },
+    skills: ['HTML', 'CSS', 'Responsive Design'],
+  },
+]
 
-export const HardSkills = [
+export const hardSkills = [
   'Web Development',
   'Data Structure',
   'Node.js',
@@ -95,7 +154,7 @@ export const HardSkills = [
   'Technical Support',
 ]
 
-export const SoftSkills = [
+export const softSkills = [
   'Creative Thinking',
   'Communication',
   'Time-Management',
@@ -103,7 +162,7 @@ export const SoftSkills = [
   'Team Work',
 ]
 
-export const TechnicalSkills = [
+export const technicalSkills = [
   {
     title: 'Frontend Development',
     skills: [
@@ -156,7 +215,7 @@ export const TechnicalSkills = [
   },
 ]
 
-export const Education = {
+export const education = {
   university:
     'Technological University of Havana"José Antonio Echeverría"​, CUJAE',
   location: 'Havana, Cuba',
@@ -169,7 +228,7 @@ export const Education = {
   },
 }
 
-export const Certifications = [
+export const certifications = [
   {
     title: 'JavaScript Algorithms and Data Structures',
     owner: 'freeCodeCamp',
