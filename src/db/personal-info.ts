@@ -121,6 +121,23 @@ export const projects = [
     ],
   },
   {
+    title: 'Countries Repository',
+    description: 'Countries repository developed in Nextjs',
+    links: {
+      code: 'https://github.com/mbravosarria/countries-app',
+      demo: 'https://countries-repo.netlify.app/',
+    },
+    skills: [
+      'Next.js',
+      'React.js',
+      'SCSS',
+      'Atomic Design',
+      'Responsive Design',
+      'Axios',
+      'Material UI',
+    ],
+  },
+  {
     title: 'Multi Step Form',
     description: 'Multi step form UI developed in Next.js',
     links: {
@@ -134,15 +151,6 @@ export const projects = [
       'Tailwind CSS',
       'Responsive Design',
     ],
-  },
-  {
-    title: 'QR Code Component',
-    description: 'Testing basic HTML and CSS skills.',
-    links: {
-      code: 'https://github.com/mbravosarria/qr-code-component-main',
-      demo: 'https://gleeful-dango-bfa59b.netlify.app/',
-    },
-    skills: ['HTML', 'CSS', 'Responsive Design'],
   },
 ]
 
